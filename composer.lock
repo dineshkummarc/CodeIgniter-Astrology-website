@@ -658,12 +658,12 @@
             "version": "4.32.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kreait/firebase-php.git",
+                "url": "https://github.com/beste/firebase-php.git",
                 "reference": "aad7f361f09661bb2e7b6267b99fd1efb73d0d07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kreait/firebase-php/zipball/aad7f361f09661bb2e7b6267b99fd1efb73d0d07",
+                "url": "https://api.github.com/repos/beste/firebase-php/zipball/aad7f361f09661bb2e7b6267b99fd1efb73d0d07",
                 "reference": "aad7f361f09661bb2e7b6267b99fd1efb73d0d07",
                 "shasum": ""
             },
@@ -699,12 +699,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Kreait\\Firebase\\": "src/Firebase"
-                },
                 "files": [
                     "src/Firebase.php"
-                ]
+                ],
+                "psr-4": {
+                    "Kreait\\Firebase\\": "src/Firebase"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -725,7 +725,19 @@
                 "google",
                 "sdk"
             ],
-            "time": "2019-09-13T10:27:17+00:00"
+            "support": {
+                "docs": "https://firebase-php.readthedocs.io",
+                "issues": "https://github.com/kreait/firebase-php/issues",
+                "source": "https://github.com/kreait/firebase-php"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jeromegamez",
+                    "type": "github"
+                }
+            ],
+            "time": "2019-09-13T10:27:17+00:00",
+            "published-time": "2019-09-13T10:45:50+00:00"
         },
         {
             "name": "kreait/firebase-tokens",
@@ -1497,9 +1509,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.11.0"
 }
